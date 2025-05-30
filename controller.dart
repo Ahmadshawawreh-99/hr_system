@@ -9,7 +9,7 @@ class Controller {
     print('Added employee: ${employee.name}');
   }
 
-  void addAdmin(Supervisor supervisor) {
+  void addSupervisor(Supervisor supervisor) {
     supervisors.add(supervisor);
     print('Added supervisor: ${supervisor.name}');
   }

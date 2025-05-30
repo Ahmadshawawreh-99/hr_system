@@ -13,6 +13,6 @@ class Employee {
   });
 
   void displayInfo() {
-    print('Employee ID: $id, Name: $name, Check-in: ${checkinHour ?? "Not checked in"}, Supervisor: ${supervisor?.name ?? "None"}');
+    print('Employee ID: $id, Name: $name, Check-in: ${checkinHour}, Supervisor: ${supervisor?.name }');
   }
 }
