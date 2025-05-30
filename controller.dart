@@ -1,6 +1,6 @@
 import './models/employee.dart';
 import './models/supervisor.dart';
-class System {
+class Controller {
   List<Employee> employees = [];
   List<Supervisor> supervisors = [];
 

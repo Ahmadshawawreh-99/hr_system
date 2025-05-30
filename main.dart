@@ -2,7 +2,7 @@ import './models/employee.dart';
 import './models/supervisor.dart';
 import 'controller.dart';
 void main() {
-  var system = System();
+  var system = Controller();
 
   var sup1 = Supervisor(id: 1, name: 'Ahmed');
   system.addAdmin(sup1);
